@@ -1,4 +1,5 @@
-name: "my-website"
+name: "Nick's Homepage"
+theme: jekyll-theme-slate
 output_dir: "."
 navbar:
   title: "My Website"

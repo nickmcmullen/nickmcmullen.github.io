@@ -3,7 +3,7 @@ title: "Nick's Homepage"
 output: html_document
 ---
 
-![Nick McMullen in Summer 2017](C:/Users/Nick/Pictures/professional_photo.jpg)
+![](C:/Users/Nick/Pictures/professional_photo.jpg)
 
 
 

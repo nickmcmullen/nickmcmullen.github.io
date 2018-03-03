@@ -1,8 +1,0 @@
----
-title: "My Homepage"
-output: html_document
----
-
-# Welcome
-
-This is my home page. 

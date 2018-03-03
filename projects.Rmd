@@ -3,4 +3,4 @@ title: "Projects"
 output: html_document
 ---
 
-The following are past projects that I have worked on or am currently working on. 
+The following are titles of projects that I have worked on at Macalester College or am currently working on. 

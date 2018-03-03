@@ -1,8 +1,8 @@
 ---
-title: "My Homepage"
+title: "Nick's Homepage"
 output: html_document
 ---
 
-# Welcome
+Welcome. Thank you for visiting my website. 
 
-This is my home page. 
+![Nick McMullen](\Users\Nick\Pictures\professional_photo.jpg)

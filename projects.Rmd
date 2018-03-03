@@ -3,7 +3,15 @@ title: "Projects"
 output: html_document
 ---
 
-The following are titles of projects that I have worked on at Macalester College or am currently working on.
+Projects in progress:
+
+Survival Analysis of Factors Affecting Time on Market for Twin Cities Single Family Homes
+
+
+Completed projects:
 
 [Bayesian Analysis of 2017 Alabama Special Senate Election](FinalReport.html) \
 [Van der Pol Equation](m312_project_handout.pdf)
+[Non-Monotonic Transformations of Random Variables](m354-presentation-project__3_.pdf)
+[The Green Line’s Impact on Housing Prices in Frogtown, St. Paul, MN](stats_final_paper-_frogtown.pdf)
+

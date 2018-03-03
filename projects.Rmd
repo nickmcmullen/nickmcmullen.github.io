@@ -5,12 +5,12 @@ output: html_document
 
 Projects in progress:
 
-Survival Analysis of Factors Affecting Time on Market for Twin Cities Single Family Homes
+- Survival Analysis of Factors Affecting Time on Market for Twin Cities Single Family Homes
 
 Completed projects:
 
-[Bayesian Analysis of 2017 Alabama Special Senate Election](FinalReport.html) \
-[Van der Pol Equation](m312_project_handout.pdf)
-[Non-Monotonic Transformations of Random Variables](m354-presentation-project__3_.pdf)
-[The Green Line’s Impact on Housing Prices in Frogtown, St. Paul, MN](stats_final_paper-_frogtown.pdf)
+- [Bayesian Analysis of 2017 Alabama Special Senate Election](FinalReport.html) \
+- [Van der Pol Equation](m312_project_handout.pdf)
+- [Non-Monotonic Transformations of Random Variables](m354-presentation-project__3_.pdf)
+- [The Green Line’s Impact on Housing Prices in Frogtown, St. Paul, MN](stats_final_paper-_frogtown.pdf)
 

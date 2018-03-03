@@ -5,7 +5,7 @@ output: html_document
 
 I am currently a 4th year student at Macalester College in St. Paul, Minnesota, USA. I will be graduating in May 2018 with a B.A. in Applied Mathematics and Statistics. 
 
-![Macalester College in the spring]("macalesterOldMain.jpg")
+![Macalester College in the spring](macalesterOldMain.jpg)
 
 In my spare time, I enjoy spending time with my family, hiking, trying new restaurants, going out for ice cream, and playing baseball. 
 

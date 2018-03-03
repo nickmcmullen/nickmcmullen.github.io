@@ -4,7 +4,7 @@ output: html_document
 ---
 
 
-![](C:/Users/Nick/Pictures/professional_photo.jpg)
+![](professional_photo.jpg)
 
 \
 

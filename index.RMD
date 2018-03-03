@@ -6,6 +6,8 @@ output: html_document
 
 ![](C:/Users/Nick/Pictures/professional_photo.jpg)
 
+\
+
 
 Welcome! Thank you for visiting my website. Here you'll find information about myself and what I'm working on. Check back regularly for updates. 
 

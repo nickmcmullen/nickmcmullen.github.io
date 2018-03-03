@@ -14,3 +14,13 @@ Completed:
 - [Non-Monotonic Transformations of Random Variables](m354-presentation-project__3_.pdf) 
 - [The Green Line’s Impact on Housing Prices in Frogtown, St. Paul, MN](stats_final_paper-_frogtown.pdf)
 
+
+
+##Additional Research Interests
+
+- Bayesian Applications in Survival Analysis
+- Diagnosis of Chronic Traumatic Encephalopathy (CTE) in living patients from neuroimaging data via statistical computing and machine learning techniques
+- Primary hpertension in young patients
+- Pioneering effective blended learning assessments in the mathematics and statistics classroom
+- Utilizing technology to empower university-level math and statistics students to learn collaboratively in an applied setting
+

@@ -1,0 +1,5 @@
+Poll,Date,Scott_R,Nelson_D,Margin.of.Error,Sample.Size,EndDate,RMargin,PollsterRating,RatingScore,DaysToElection
+Quinnipiac,2/23 - 2/26,42,46,3.6,1156,2/26/2018,-4,A-,0.93,253
+Gravis,2/1 - 2/18,40,44,2.2,1978,2/18/2018,-4,B-,0.83,261
+UNF,1/29 - 2/4,42,48,4.7,429,2/4/2018,-6,B+,0.9,275
+Mason-Dixon,1/30 - 2/1,44,45,4,625,2/1/2018,-1,B+,0.9,278

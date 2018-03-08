@@ -96,9 +96,9 @@ posterior <- posterior[,-c(1,2,3,4)]
 ggplot(posterior, aes(x=Date, y=pWinScott))+
   geom_smooth(aes(color="Scott (R)"))+
   geom_smooth(aes(y=pWinNelson, color="Nelson (D)"))+
-  #geom_smooth(aes(y=pWinOther), color="Black")+
+  geom_smooth(aes(y=pWinOther, color="Black"))+
   labs(title="Florida 2018 Midterm: U.S Senate ", y="Probability of Victory")+
-  scale_colour_manual("", breaks=c("Scott (R)", "Nelson (D)"), values=c("Scott (R)"="red","Nelson (D)"="blue")) + 
+  scale_colour_manual("", breaks=c("Scott (R)", "Nelson (D)", "Other"), values=c("Scott (R)"="red","Nelson (D)"="blue")) + 
   lims(y=c(.25,.75))
 
 

@@ -47,22 +47,22 @@ posterior <- matrix(0, nrow=length(Florida$Poll), ncol=4)
 for(i in 1:length(Florida$Poll)){
   if(Florida$RMargin[i] > 0){
     alphaR <- priorAlpha[1] + 1
-    alphaSum <- alphaR + priorAlpha[2] #+ priorAlpha[3]
+    alphaSum <- alphaR + priorAlpha[2] + priorAlpha[3]
     postMeanR <- (alphaR)/(alphaSum)
     posterior[i,1] <- postMeanR
-    posterior[i,2] <- 1- postMeanR #(priorAlpha[2]/alphaSum)
-    #posterior[i,3] <- 1 - (posterior[i,1] + posterior[i,2])
+    posterior[i,2] <- (priorAlpha[2]/alphaSum)
+    posterior[i,3] <- 1 - (posterior[i,1] + posterior[i,2])
     #Update the prior for sequential analysis
     priorAlpha[1] <- alphaR
   }
   
   if(Florida$RMargin[i] < 0){
     alphaD <- priorAlpha[2] + 1
-    alphaSum <- priorAlpha[1] + alphaD #+ priorAlpha[3]
+    alphaSum <- priorAlpha[1] + alphaD + priorAlpha[3]
     postMeanD <- (alphaD)/(alphaSum)
     posterior[i,2] <- postMeanD
-    posterior[i,1] <- 1-postMeanD #(priorAlpha[1]/alphaSum)
-    #posterior[i,3] <- 1 - (posterior[i,1] + posterior[i,2])
+    posterior[i,1] <- (priorAlpha[1]/alphaSum)
+    posterior[i,3] <- 1 - (posterior[i,1] + posterior[i,2])
     #Update the prior for sequential analysis
     priorAlpha[2] <- alphaD
   }

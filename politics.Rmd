@@ -31,6 +31,7 @@ Nelson: 44.3%
 
 ### The Model
 
+This model accounts for the influence of a third candidate, but this is not visualized because of the significantly low probability that a third candidate wins the race. 
 
 ```{r echo=FALSE, message=FALSE, out.width="60%", warning=FALSE}
 
@@ -121,7 +122,7 @@ Last poll released: 2/26/2018
 
 [Polls source - RealClearPolitics](https://www.realclearpolitics.com/epolls/2018/senate/fl/florida_senate_scott_vs_nelson-6246.html)
 
-Scott seems to be trending down, falling behind to Nelson in two polls conducted in late February with substantial sample sizes (>1000).
+Scott seems to be trending down, falling behind Nelson in two polls conducted in late February with substantial sample sizes (>1000).
 
 
 

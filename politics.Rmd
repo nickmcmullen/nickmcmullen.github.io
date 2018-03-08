@@ -1,0 +1,32 @@
+---
+title: "Politics"
+output: html_document
+---
+
+This page is under construction. I intend to run analyses using Bayesian methods to predict the outcomes for some important 2018 midterm elections after primaries have been conducted. 
+
+1. Florida Senate: Scott (R) vs. Nelson (D)
+
+<div style="width:300px; height=200px">
+
+![Courtesy: Washington Examiner](http://cdn.washingtonexaminer.biz/cache/1060x600-5f7a22505f72eba1d382e97f5b674017.jpg)
+
+</div>
+
+
+\
+
+2. Arizona Senate: McSally/Arpaio/Ward (R) vs. Sinema (D)
+
+
+<div style="width:300px; height=200px">
+
+![Courtesy: Washington Examiner](http://cdn.washingtonexaminer.biz/cache/1060x600-b91370740424c63b50518ff91ab1534e.jpg)
+
+</div>
+
+
+
+
+
+

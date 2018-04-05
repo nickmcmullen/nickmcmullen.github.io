@@ -9,9 +9,9 @@ navbar:
       href: about.html
     - text: "Projects"
       href: projects.html
-    - text: "Politics"
-      href: politics.html
-      
+
+        
+        
 output:
   html_document:
     theme: cosmo

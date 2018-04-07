@@ -3,9 +3,11 @@ title: "About"
 output: html_document
 ---
 
+\ 
+
 ##Work
 
-![](alliance2.jpg)
+![](alliance3.jpg)
 
 \
 
@@ -17,13 +19,20 @@ I am currently a Learning Manager at Alliance Residential Company based in Phoen
 - Monitoring and evaluating training programs to ensure effectiveness and ROI
 - Building out the content model strategy, existing and new models, while considering integration into the infrastructure strategy
 
-I am looking forward to growing in the training and development field and am excited to utilize my analytical skills to contribute to the company and the discipline. 
+I am looking forward to growing in the training and development field and am excited to use my analytical skills to contribute to the company and the discipline. 
 
-##School
+\
+
+
+##Education
 
 I graduated in May 2018 from Macalester College in St. Paul, Minnesota, USA with a B.A. in Applied Mathematics and Statistics. 
 
+I also was a 4 year starter and 2 year captain for the Macalester Scots baseball team. 
+
 ![Macalester College in nice weather](macalesterOldMain.jpg)
+
+\ 
 
 ##Personal
 

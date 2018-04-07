@@ -18,10 +18,9 @@ Completed:
 
 ##Additional Research Interests
 
-- Bayesian Applications in Survival Analysis
+- Bayesian Applications in business intelligence
+- Development of effective blended learning assessments that provide students with a proper balance of guidance and project-based autonomous learning
+- Utilization of learning analytics to identify faults in online learning systems that impede student learning
 - Diagnosis of Chronic Traumatic Encephalopathy (CTE) in living patients from neuroimaging data via statistical computing and machine learning techniques
-- Primary hpertension in young patients
-- Pioneering effective blended learning assessments in the mathematics and statistics classroom
-- Utilizing technology to empower university-level math and statistics students to learn collaboratively in an applied setting
 - Statistical analyses of elections
 

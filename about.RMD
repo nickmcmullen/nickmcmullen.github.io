@@ -3,9 +3,29 @@ title: "About"
 output: html_document
 ---
 
-I am currently a 4th year student at Macalester College in St. Paul, Minnesota, USA. I will be graduating in May 2018 with a B.A. in Applied Mathematics and Statistics. 
+##Work
+
+![](alliance2.jpg)
+
+\
+
+
+I am currently a Learning Manager at Alliance Residential Company based in Phoenix, Arizona. A few of my current duties include:
+
+- Perform training needs assessments through a collaborative mix of surveys, interviews, and consultations
+- Create training curriculum and methods, online learning modules, and course materials
+- Monitor and evaluate training programs to ensure effectiveness and ROI
+- Build out the content model strategy, existing and new models, while considering integration into the infrastructure strategy
+
+I am looking forward to growing in the training and development field and am excited to utilize my analytical skills to contribute to the company and the discipline. 
+
+##School
+
+I graduated magna cum laude in May 2018 from Macalester College in St. Paul, Minnesota, USA with a B.A. in Applied Mathematics and Statistics. 
 
 ![Macalester College in nice weather](macalesterOldMain.jpg)
 
-In my spare time, I enjoy spending time with my family, hiking, trying new restaurants, going out for ice cream, and playing baseball. I was born and raised in Arizona and will always consider the 48th state my home. 
+##Personal
+
+In my spare time, I enjoy spending time with my family, hiking, trying new restaurants, going out for ice cream, attending Arizona Diamondbacks games, and playing baseball. I was born and raised in Arizona and will always consider the 48th state my home. 
 

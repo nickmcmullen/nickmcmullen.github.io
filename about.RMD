@@ -7,7 +7,7 @@ output: html_document
 
 ##Work
 
-![](alliance3.jpg)
+![](alliance4.gif)
 
 \
 

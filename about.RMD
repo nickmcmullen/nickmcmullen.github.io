@@ -12,10 +12,10 @@ output: html_document
 
 I am currently a Learning Manager at Alliance Residential Company based in Phoenix, Arizona. A few of my current duties include:
 
-- Perform training needs assessments through a collaborative mix of surveys, interviews, and consultations
-- Create training curriculum and methods, online learning modules, and course materials
-- Monitor and evaluate training programs to ensure effectiveness and ROI
-- Build out the content model strategy, existing and new models, while considering integration into the infrastructure strategy
+- Performing training needs assessments through a collaborative mix of surveys, interviews, and consultations
+- Creating training curriculum and methods, online learning modules, and course materials
+- Monitoring and evaluate training programs to ensure effectiveness and ROI
+- Building out the content model strategy, existing and new models, while considering integration into the infrastructure strategy
 
 I am looking forward to growing in the training and development field and am excited to utilize my analytical skills to contribute to the company and the discipline. 
 

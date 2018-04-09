@@ -2,13 +2,14 @@ name: "Nick's Homepage"
 output_dir: "."
 navbar:
   title: "Nick McMullen"
-  left:
-    - text: "Home"
+  subcategories:
+    - subtitle: "Home"
       href: index.html
-    - text: "About"
+    - subtitle: "About"
       href: about.html
-    - text: "Projects"
+    - subtitle: "Projects"
       href: projects.html
+      
 
         
         

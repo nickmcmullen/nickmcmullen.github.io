@@ -10,7 +10,13 @@ navbar:
     - subtitle: "Projects"
       href: projects.html
       
-
+  title: "Test 1"
+  subcategories: 
+    - subtitle: "SubTest 1"
+      href: index.html
+    - subtitle: "Subtest 2"
+      href: about.html
+      
         
         
 output:

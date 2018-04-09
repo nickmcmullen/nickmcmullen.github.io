@@ -9,14 +9,6 @@ navbar:
       href: about.html
     - text: "Projects"
       href: projects.html
-      
-navbar:
-  title: "Test1"
-  right:
-    - text: "Test1Sub"
-      href: index.html
-      
-      
 
         
         

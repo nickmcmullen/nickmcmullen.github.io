@@ -7,6 +7,8 @@ In progress:
 
 - Survival Analysis of Factors Affecting Time on Market for Twin Cities Single Family Homes
 
+- Data Analysis of Gerrymandering
+
 Completed:
 
 - [Bayesian Analysis of 2017 Alabama Special Senate Election](FinalReport.html) 

@@ -3,6 +3,8 @@ title: "Projects"
 output: html_document
 ---
 
+##Analytics, Mathematics, and Statistics
+
 In progress:
 
 - Survival Analysis of Factors Affecting Time on Market for Twin Cities Single Family Homes
@@ -18,6 +20,17 @@ Completed:
 
 
 
+##Learning, Performance, and Instructional Design
+
+\textbf{Macalester College Athletics Compliance Internship}
+
+- [Sports Wagering Video](https://youtu.be/Xs3us3K-roY)
+- [Academic Eligibility Video](https://youtu.be/qMaiwwepZzs)
+- [Ethical Conduct Video](https://youtu.be/kv10oAHzyQU)
+- [Explo at Yale 2016 Advertising and Marketing Curriculum Map](Curriculum Map 2016.pdf)
+- [Explo at Yale 2016 Business Management Curriculum Map](Curriculum Map 2016 (1).pdf)
+
+
 ##Additional Research Interests
 
 - Bayesian Applications in business intelligence
@@ -25,4 +38,8 @@ Completed:
 - Utilization of learning analytics to identify faults in online learning systems that impede student learning
 - Diagnosis of Chronic Traumatic Encephalopathy (CTE) in living patients from neuroimaging data via statistical computing and machine learning techniques
 - Statistical analyses of elections
+
+
+
+
 

@@ -12,7 +12,7 @@ output: html_document
 \
 
 
-I am currently a Learning Manager at Alliance Residential Company based in Phoenix, Arizona. A few of my current duties include:
+I am currently a Learning Manager at Alliance Residential Company based in Phoenix, Arizona. A few of my responsibilities include:
 
 - Performing training needs assessments through a collaborative mix of surveys, interviews, and consultations
 - Creating training curriculum and methods, online learning modules, and course materials
@@ -26,7 +26,7 @@ I am looking forward to growing in the training and development field and am exc
 
 ##Education
 
-I graduated in May 2018 from Macalester College in St. Paul, Minnesota, USA with a B.A. in Applied Mathematics and Statistics. 
+I graduated _magna cum laude_ in May 2018 from Macalester College in St. Paul, Minnesota, USA with a B.A. in Applied Mathematics and Statistics. 
 
 I also was a 4 year starter and 2 year captain for the Macalester Scots baseball team. 
 

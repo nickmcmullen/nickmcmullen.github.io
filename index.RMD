@@ -10,7 +10,7 @@ output: html_document
 
 Welcome! Thank you for visiting my website. Here you'll find information about myself and what I'm working on. Check back regularly for updates. 
 
-[Resume/CV](online resume.pdf)
+[Resume](online-resume-updated-5-9.pdf)
 
 ##Contact
 

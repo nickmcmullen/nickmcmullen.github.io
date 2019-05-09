@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +30,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -210,14 +212,15 @@ $(document).ready(function () {
 </div>
 <p><br />
 </p>
-<p>I am currently a Learning Manager at Alliance Residential Company based in Phoenix, Arizona. A few of my responsibilities include:</p>
+<p>I am currently the Talent Analytics Manager at Alliance Residential Company based in Phoenix, Arizona. In addition to supervising our associate screening and onboarding team, I work on various performance and human resources analytic projects including a major system rollout of a new learning management system, compensation analysis and strategy, and various process improvements and automations.</p>
+<p><strong>Skills</strong></p>
 <ul>
-<li>Manage company LMS, including data/reporting, dynamic assignments, user groups, user profile management, curriculum development, and certification management</li>
-<li>Performing training needs assessments through a collaborative mix of surveys, interviews, and consultations</li>
-<li>Build reports using statistical and data analysis to provide insight to company leadership</li>
-<li>Creating training curriculum and methods, online learning modules, and course materials</li>
-<li>Monitoring and evaluating training programs to ensure effectiveness and ROI</li>
-<li>Building out the content model strategy, existing and new models, while considering integration into the infrastructure strategy</li>
+<li><p>Tableau</p></li>
+<li><p>R &amp; RStudio (this entire site was built using these tools)</p></li>
+<li><p>MS SQL Server Management Studio</p></li>
+<li><p>MS Excel</p></li>
+<li><p>Process improvement</p></li>
+<li><p>Management</p></li>
 </ul>
 <p><br />
 </p>
@@ -234,7 +237,7 @@ $(document).ready(function () {
 </div>
 <div id="personal" class="section level2">
 <h2>Personal</h2>
-<p>In my spare time, I enjoy spending time with my family, hiking, trying new restaurants, going out for ice cream, attending Arizona Diamondbacks games, and playing baseball. I was born and raised in Arizona and will always consider the 48th state my home.</p>
+<p>In my spare time, I enjoy spending time with my family, hiking, trying new restaurants, attending local sporting events, exploring Phoenix area, and playing baseball.</p>
 </div>
 
 

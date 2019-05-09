@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +30,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -209,27 +211,6 @@ $(document).ready(function () {
 <li><a href="m312_project_handout.pdf">Van der Pol Equation</a></li>
 <li><a href="m354-presentation-project__3_.pdf">Non-Monotonic Transformations of Random Variables</a></li>
 <li><a href="stats_final_paper-_frogtown.pdf">The Green Line’s Impact on Housing Prices in Frogtown, St. Paul, MN</a></li>
-</ul>
-</div>
-<div id="learning-performance-and-instructional-design" class="section level2">
-<h2>Learning, Performance, and Instructional Design</h2>
-
-<ul>
-<li><a href="https://youtu.be/Xs3us3K-roY">Sports Wagering Video</a></li>
-<li><a href="https://youtu.be/qMaiwwepZzs">Academic Eligibility Video</a></li>
-<li><a href="https://youtu.be/kv10oAHzyQU">Ethical Conduct Video</a></li>
-<li><a href="Curriculum%20Map%202016.pdf">Explo at Yale 2016 Advertising and Marketing Curriculum Map</a></li>
-<li><a href="Curriculum%20map%202016%201.pdf">Explo at Yale 2016 Business Management Curriculum Map</a></li>
-</ul>
-</div>
-<div id="additional-research-interests" class="section level2">
-<h2>Additional Research Interests</h2>
-<ul>
-<li>Bayesian Applications in business intelligence</li>
-<li>Development of effective blended learning assessments that provide students with a proper balance of guidance and project-based autonomous learning</li>
-<li>Utilization of learning analytics to identify faults in online learning systems that impede student learning</li>
-<li>Diagnosis of Chronic Traumatic Encephalopathy (CTE) in living patients from neuroimaging data via statistical computing and machine learning techniques</li>
-<li>Statistical analyses of elections</li>
 </ul>
 </div>
 

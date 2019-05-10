@@ -3,6 +3,12 @@ title: "Projects"
 output: html_document
 ---
 
+##Business Impact
+
+- Saved department combined $15,000+ in consulting fees by conducting a massive migration of performance review and certification data
+- Reduced past-due training companywide by 40% after developing past due Tableau dashboard updated daily through SFTP connection to data warehouse.
+
+
 ##Analytics, Mathematics, and Statistics
 
 - [Survival Analysis of Factors Affecting Time on Market for Twin Cities Single Family Homes](Final_Draft_1.pdf){target="_blank"}

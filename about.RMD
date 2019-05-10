@@ -12,14 +12,14 @@ output: html_document
 \
 
 
-I am currently the Talent Analytics Manager at Alliance Residential Company based in Phoenix, Arizona. In addition to supervising our associate screening and onboarding team, I work on various performance and human resources analytic projects including a major system rollout of a new learning management system, compensation analysis and strategy, and various process improvements and automations.
+I am currently the Talent Analytics Manager at Alliance Residential Company based in Phoenix, Arizona. In addition to supervising our candidate screening and onboarding team, I work on various performance and human resources analytics projects including a major system rollout of a new learning management system, compensation analysis and strategy, and various process improvements and automations.
 
 **Skills**
 
 
 * Tableau 
 
-* R & RStudio (this entire site was built using these tools) 
+* R & RStudio (this site was built using these tools) 
 
 * MS SQL Server Management Studio 
 
@@ -34,9 +34,9 @@ I am currently the Talent Analytics Manager at Alliance Residential Company base
 
 ##Education
 
-I graduated _magna cum laude_ in May 2018 from Macalester College in St. Paul, Minnesota, USA with a B.A. in Applied Mathematics and Statistics. I am a member of Phi Beta Kappa Academic Honor Society. 
+I graduated _magna cum laude_ in May 2018 from Macalester College in St. Paul, Minnesota, USA with a B.A. in Applied Mathematics and Statistics and was inducted into the Phi Beta Kappa Academic Honor Society.
 
-I also was a 4 year starter and 2 year captain for the Macalester Scots baseball team. 
+I also was a 4 year starter and 2 year captain for the Macalester Scots baseball team. I utilize the mental toughness developed during my time as an athlete to approach my work with grit and purpose every day.
 
 ![Macalester College](macalesterOldMain.jpg)
 

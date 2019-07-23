@@ -5,6 +5,7 @@ output: html_document
 
 ##Business Impact
 
+- Rolled out new compensation system to provide leadership with strategic insight into the market position of organizational compensation
 - Saved department combined $15,000+ in consulting fees by conducting a massive migration of performance review and certification data
 - Reduced past-due training companywide by 40% after developing past due Tableau dashboard updated daily through SFTP connection to data warehouse.
 

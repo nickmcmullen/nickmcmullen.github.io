@@ -5,14 +5,14 @@ output: html_document
 
 \ 
 
-##Work
+## Work
 
 ![](alliance4.gif)
 
 \
 
 
-I am currently the Talent Analytics Manager at Alliance Residential Company based in Phoenix, Arizona. In addition to supervising our candidate screening and onboarding team, I work on various performance and human resources analytics projects including a major system rollout of a new learning management system, compensation analysis and strategy, and various process improvements and automations.
+I am currently a Business Data Analyst at Alliance Residential Company based in Phoenix, Arizona. I oversee and administer our companywide quarterly incentive program and other variable pay plans, with the overarching goal of improving, streamlining, and governing a wide variety of sales and executive incentive plans. I also work closely with our business intelligence and human resources teams to move & manipulate data, then glean insights from it to drive company performance. 
 
 **Skills**
 
@@ -32,7 +32,7 @@ I am currently the Talent Analytics Manager at Alliance Residential Company base
 \
 
 
-##Education
+## Education
 
 I graduated _magna cum laude_ in May 2018 from Macalester College in St. Paul, Minnesota, USA with a B.A. in Applied Mathematics and Statistics and was inducted into the Phi Beta Kappa Academic Honor Society.
 
@@ -42,7 +42,7 @@ I also was a 4 year starter and 2 year captain for the Macalester Scots baseball
 
 \ 
 
-##Personal
+## Personal
 
 In my spare time, I enjoy spending time with my family, hiking, trying new restaurants, attending local sporting events, exploring Phoenix area, and playing baseball. 
 

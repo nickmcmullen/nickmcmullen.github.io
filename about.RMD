@@ -12,22 +12,30 @@ output: html_document
 \
 
 
-I am currently a Business Data Analyst at Alliance Residential Company based in Phoenix, Arizona. I oversee and administer our companywide quarterly incentive program and other variable pay plans, with the overarching goal of improving, streamlining, and governing a wide variety of sales and executive incentive plans. I also work closely with our business intelligence and human resources teams to move & manipulate data, then glean insights from it to drive company performance. 
+I am currently the Manager, People Systems & Analytics at Alliance Residential Company based in Phoenix, Arizona. I oversee the operation, maintenance, and improvement of all people systems, administer and improve a variety of base and variable compensation plans (sales, executive), act as the technical lead on the company compensation committee, consult with internal stakeholders on compensation issues and market job mappings, and conduct statistical analyses as requested to assist with people operations decision making at the highest levels of the organization.
 
 **Skills**
 
 
-* Tableau 
+* Talent management
 
-* R & RStudio (this site was built using these tools) 
+* Compensation strategy/consulting
 
-* MS SQL Server Management Studio 
+* Learning & development 
 
-* MS Excel 
+* Onboarding
 
-* Process improvement 
+* HR system implementations
 
-* Management 
+* iCIMS ATS
+
+* UltiPro HRIS
+
+* Cornerstone LMS
+
+* Fuse LXP
+
+
 
 \
 

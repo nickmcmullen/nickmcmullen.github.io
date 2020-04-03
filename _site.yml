@@ -4,11 +4,42 @@ navbar:
   title: "Nick McMullen"
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "About"
+      icon: fa-info
       href: about.html
     - text: "Projects"
+      icon: fa-gear
       href: projects.html
+    - text: "Campaign 2020"
+      icon: fa-flag
+      menu:
+        - text: "Introduction"
+          href: campaign2020.html
+        - text: "About Me"
+          href: aboutme.html
+        - text: "Priorities"
+          menu: 
+            - text: "Vision & Philosophy"
+              href: issuesandpolicies.html
+            - text: "Diversity & Inclusion"
+              href: diversityandinclusion.html
+            - text: "Mental Health"
+              href: mentalhealth.html
+            - text: "School Safety"
+              href: schoolsafety.html
+            - text: "Faculty & Staff"
+              href: facultyandstaff.html
+            - text: "Special Education"
+              href: specialeducation.html
+            - text: "Gifted Education"
+              href: giftededucation.html
+            - text: "Career & Technical Education"
+              href: cte.html
+              
+            
+        
 
         
         

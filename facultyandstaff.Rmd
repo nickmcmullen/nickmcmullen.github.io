@@ -1,0 +1,14 @@
+---
+title: "Faculty & Staff"
+output: html_document
+---
+
+![](Campaign Banner.PNG)
+
+\
+
+Nobody is more invested in the success of our students than our faculty and staff. Unfortunately, in this rapidly moving world these wonderful individuals can sometimes feel left behind. Our teachers and support staff are the foundation of providing all of our educational services and it is critical that they not only have the resources they need to do their jobs well, but are recognized for good work and are satisfied in their career. 
+
+\
+
+Consistency promotes excellence, which is why it is so important that we focus on faculty and staff retention. A plethora of research shows that the more satisfied employees are, the lower turnover an organization has. As part of my long-term vision for the district, I pledge to push for consistent year-over-year improvement in both retention and satisfaction throughout the district.

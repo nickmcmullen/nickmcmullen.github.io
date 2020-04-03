@@ -1,0 +1,10 @@
+---
+title: "School Safety"
+output: html_document
+---
+
+![](Campaign Banner.PNG)
+
+\
+
+School safety should always be an ongoing discussion between a governing board, district leadership, and educators. It is my committment to you to keep school safety at the top-of-mind in every discussion and to ensure school safety policies and procedures are being constantly reviewed for thoroughness, efficiency, and student and staff safety. 

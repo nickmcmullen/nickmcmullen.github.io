@@ -1,0 +1,14 @@
+---
+title: "Mental Health"
+output: html_document
+---
+
+![](Campaign Banner.PNG)
+
+\
+
+The mental health of our students needs to be taken seriously. I support full, open discussions around broad mental health issues in our schools and adherance to all privacy laws regarding individual mental health situations.
+
+\
+
+If elected, I would collaborate with our administration to perform a full review of the mental health support and infrastructure in place at DVUSD, including resource availability on a school-by-school basis, and request recommendations from leadership on how to improve access for our students.

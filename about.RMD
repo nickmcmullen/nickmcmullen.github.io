@@ -12,7 +12,7 @@ output: html_document
 \
 
 
-I am currently the Manager, People Systems & Analytics at [Alliance Residential Company](http://www.allresco.com/) based in Phoenix, Arizona. I oversee the operation, maintenance, and improvement of all people systems, administer and improve a variety of base and variable compensation plans (sales, executive), act as the technical lead on the company compensation committee, consult with internal stakeholders on compensation issues and market job mappings, and conduct statistical analyses as requested to assist with people operations decision making at the highest levels of the organization.
+I am currently the Manager, People Systems & Analytics at [Alliance Residential Company](http://www.allresco.com/) based in Phoenix, Arizona. I oversee the operation, maintenance, and improvement of all people systems, administer and improve a variety of base and variable compensation plans (sales, executive), act as the technical lead on the company compensation committee, consult with internal stakeholders on compensation issues and market job mappings, and conduct statistical analyses as requested to assist with people operations decision making at the highest levels of the organization. 
 
 **Skills**
 

@@ -9,7 +9,7 @@ output: html_document
 
 I am a data-driven, people-minded professional working in the multifamily industry. I enjoy finding efficiencies, pioneering new methods and processes, and driving business results through key analytical insights. 
 
-[Resume](Nicholas G McMullen Resume.pdf){target="_blank"}
+[Resume](Nicholas_McMullen_Resume.txt){target="_blank"}
 
 ## Contact
 

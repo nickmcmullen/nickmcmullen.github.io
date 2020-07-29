@@ -38,11 +38,15 @@ Talent Analytics Manager                                 August 2018 - February 
  * Managed iCIMS ATS as lead administrator
  * Assisted with base pay structure development, managed Quarterly Incentive Program
  * Conducted HCM analysis and process improvement for Talent Management department
+ * Automated department billing processes, saving 25 hours/month of admim work
+ * Implemented Fuse LXP, migrated data and content saving $15k in consultant fees
+ * Implemented Salary.com CompAnalyst and market-priced more than 500 company jobs
 
 Learning Manager                                              May 2018 - August 2018
  * Led data and analytics function for Learning & Development department
  * Conducted learning needs analyses to help guide future training development
  * Oversaw Cornerstone OnDemand LMS as lead administrator 
+ * Reduced past due training companywide by over 40% with Tableau Dashboard
 
 Training Intern                                              June 2017 - August 2017
  * Conducted reporting and assisted with administration in Cornerstone OnDemand LMS

@@ -12,7 +12,7 @@ output: html_document
 \
 
 
-I am currently a Senior HRIS Analyst at [Greystar](https://www.greystar.com/), the Global Leader in Rental Housing. I work very closely with other members of the Global HRIS team to manage and improve various Workday modules that support the People & Culture function for 19,000 employees. I also work closely with the Compensation team to ensure continuous operation of an effective and successful Total Rewards platform. 
+I am currently a Senior HRIS Analyst at [Greystar](https://www.greystar.com/){target="_blank"}, the Global Leader in Rental Housing. I work very closely with other members of the Global HRIS team to manage and improve various Workday modules that support the People & Culture function for 19,000 employees. I also work closely with the Compensation team to ensure continuous operation of an effective and successful Total Rewards platform. 
 
 **Skills**
 

@@ -13,7 +13,7 @@ Experience building and administering base and variable compensation plans
 
 Skills: Job analysis and documentation, statistical analysis, talent management, talent onboarding, recruiting support and administration, compensation program management, HR system improvement and administration
 
-Technical experience: R programming, RStudio IDE, Excel, Tableau Desktop, UltiPro, iCIMS, Salary.com CompAnalyst, Cornerstone OnDemand LMS, Fuse Universal LXP
+Technical experience: R programming, RStudio IDE, Excel, Tableau Desktop, UltiPro, iCIMS, Salary.com CompAnalyst, Cornerstone OnDemand LMS, Fuse Universal LXP, Salesforce
 
 EMPLOYMENT
 ====================================================================================

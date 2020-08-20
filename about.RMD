@@ -17,23 +17,30 @@ I am currently a Senior HRIS Analyst at [Greystar](https://www.greystar.com/){ta
 **Skills**
 
 
-* Talent management
+* Compensation strategy
 
-* Compensation strategy/consulting
+* HR system implementations
+
+* Talent management
 
 * Learning & development 
 
 * Onboarding
 
-* HR system implementations
+
+**Software Programs**
+
+* RStudio
 
 * iCIMS ATS
 
 * UltiPro HRIS
 
-* Cornerstone LMS
+* Cornerstone OnDemand LMS
 
 * Fuse LXP
+
+* Salesforce
 
 
 

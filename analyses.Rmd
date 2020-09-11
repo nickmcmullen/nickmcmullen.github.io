@@ -1,0 +1,8 @@
+---
+title: "Analyses & Projects"
+output: html_document
+---
+
+
+- [Survival Analysis of Factors Affecting Time on Market for Twin Cities Single Family Homes](Final_Draft_1.pdf){target="_blank"}
+- [Bayesian Analysis of 2017 Alabama Special Senate Election](FinalReport.html){target="_blank"}

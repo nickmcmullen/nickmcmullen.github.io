@@ -1,0 +1,36 @@
+---
+title: "Business Impact"
+output: html_document
+---
+
+\
+
+![](alliance.jpg){width=55, height=55}
+
+\
+
+ <font size="12"> $29,423.08 </font> saved in consulting fees and employee time through data-driven processes and efficiencies
+
+ <font size="12"> 500+ </font> jobs evaluated and market priced for companywide compensation program development
+
+ <font size="12"> 4320 </font> employees successfully onboarded across 20 states
+
+ <font size="12"> 31.64% </font> YoY reduction in time to fill open requisitions
+
+ <font size="12"> 3 </font> robostly successful HR system implementations managed
+
+ <font size="12"> 40% </font> reduction in noncompliant training nationwide driven by development and distribution of real-time Tableau dashboard
+
+
+\
+\
+
+
+
+
+
+
+
+
+
+

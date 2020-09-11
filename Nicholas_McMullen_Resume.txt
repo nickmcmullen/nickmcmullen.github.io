@@ -17,17 +17,19 @@ Technical experience: R programming, RStudio IDE, Excel, Tableau Desktop, UltiPr
 
 EMPLOYMENT
 ====================================================================================
-Greystar (formerly Alliance Residential)                         July 2020 - Present
+WorldatWork Total Rewards Association                       September 2020 - Present
 Phoenix, Arizona
 
-Sr. Analyst, HRIS                                                July 2020 - Present
- * Conduct HCM analytics and reporting to support the People & Culture function 
- * Support various Workday modules: HCM, compensation, learning, recruiting
+Sr. Specialist, Total Rewards Content                       September 2020 - Present
+ * Build infrastructure (processes, analyses, relationships) to improve the organization's connection with content strategy and delivery
+ * Execute strategy and evaluate performance of various training and certification products
+ * Conduct professional research in the total rewards field to ensure the organization's educational content continues setting pace with the ever-evolving rewards market
+ * Support the selection of top industry experts for the organization's world-class educational events
 
-Alliance Residential Company                                   June 2017 - July 2020
+Alliance Residential Company (acquired by Greystar)       June 2017 - September 2020
 Phoenix, Arizona
 
-Manager, People Systems and Analytics                      February 2020 - July 2020
+Manager, HR Systems and Analytics                     February 2020 - September 2020
  * Managed maintenance and improvement of all HR systems and related data feeds
  * Conducted job analyses and evaluations to price for the job offer process
  * Oversaw Quarterly Incentive Program, paying out $3.5M+ quarterly
@@ -72,7 +74,7 @@ Tableau Desktop Certified Associate                                     October 
 Leading Accountable Engagement                                          October 2019
   Dale Carnegie Training
 
-AFFILIATIONS
+AFFILIATIONS & VOLUNTEERISM 
 ====================================================================================
 Deer Valley Unified School District                           January 2020 - Present
   Certified Performance Pay Committee Member

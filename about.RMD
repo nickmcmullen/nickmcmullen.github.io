@@ -7,17 +7,17 @@ output: html_document
 
 ## Work
 
-![](Greystar.jpg)
+![](WaW_Logo.png)
 
 \
 
 
-I am currently a Senior HRIS Analyst at [Greystar](https://www.greystar.com/){target="_blank"}, the Global Leader in Rental Housing. I work very closely with other members of the Global HRIS team to manage and improve various Workday modules that support the People & Culture function for 19,000 employees. I also work closely with the Compensation team to ensure continuous operation of an effective and successful Total Rewards platform. 
+I am currently the **Senior Specialist, Total Rewards Content** at [WorldatWork](https://worldatwork.org/){target="_blank"}, the leading global nonprofit organization for professionals who are engaged in the critically important practice of Total Rewards. I am proud to help fulfill WorldatWork's vision to create a world of productive, committed, and inspired workforces fueled by meaningful Total Rewards.
 
 **Skills**
 
 
-* Compensation strategy
+* Compensation strategy and management
 
 * HR system implementations
 
@@ -28,7 +28,7 @@ I am currently a Senior HRIS Analyst at [Greystar](https://www.greystar.com/){ta
 * Onboarding
 
 
-**Software Programs**
+**Software Expertise**
 
 * RStudio
 
@@ -37,6 +37,8 @@ I am currently a Senior HRIS Analyst at [Greystar](https://www.greystar.com/){ta
 * UltiPro HRIS
 
 * Cornerstone OnDemand LMS
+
+* Salary.com CompAnalyst
 
 * Fuse LXP
 

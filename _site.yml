@@ -9,9 +9,12 @@ navbar:
     - text: "About"
       icon: fa-info
       href: about.html
-    - text: "Projects"
-      icon: fa-gear
-      href: projects.html
+    - text: "Impact"
+      icon: fa-cogs
+      href: impact.html
+    - text: "Analyses"
+      icon: fa-bar-chart
+      href: analyses.html
 
         
         

@@ -15,9 +15,10 @@ navbar:
     - text: "Analyses"
       icon: fa-bar-chart
       menu:
+        - text: "Projects"
         - text: "2020 AZ Senate"
           href: AZ-Senate-Election-Analysis.html
-        - text: "Survival Analysis - TC Real Estate"
+        - text: "Twin Cities Real Estate"
           href: Final_Draft_1.pdf
         - text: "2017 AL Senate"
           href: FinalReport.html

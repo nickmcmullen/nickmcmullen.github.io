@@ -294,12 +294,26 @@ $(document).ready(function () {
     Impact
   </a>
 </li>
-<li>
-  <a href="analyses.html">
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     <span class="fa fa-bar-chart"></span>
      
     Analyses
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Projects</li>
+    <li>
+      <a href="AZ-Senate-Election-Analysis.html">2020 AZ Senate</a>
+    </li>
+    <li>
+      <a href="Final_Draft_1.pdf">Twin Cities Real Estate</a>
+    </li>
+    <li>
+      <a href="FinalReport.html">2017 AL Senate</a>
+    </li>
+  </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -318,30 +332,28 @@ $(document).ready(function () {
 </div>
 
 
+<p>Last update: 11/13/2020</p>
 <div id="overview" class="section level2">
 <h2>Overview</h2>
-This model simulated this election 30,000 times using an informed Bayesian prior and took into consideration the following:
-
-Poll numbers
-
-Poll quality
-
-Poll recency
-
-Past statewide election results
-
-<p>Past national election results</p>
+<p>This model simulated this election 30,000 times using an informed Bayesian prior and took into consideration the following:</p>
+<ul>
+<li>Poll numbers</li>
+<li>Poll quality</li>
+<li>Poll recency</li>
+<li>Past statewide election results</li>
+<li>Past national election results</li>
+</ul>
 </div>
 <div id="simulation-results" class="section level2">
 <h2>Simulation Results:</h2>
 <p><img src="2020-Election-Analysis_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
 </div>
-<div id="plot-density-overlap" class="section level2">
-<h2>Plot Density Overlap</h2>
-<p>The area in which the density curves overlap (the simulation predicted that McSally would receive a higher vote than Kelly) is quite small based on this model.</p>
+<div id="probability-of-victory" class="section level2">
+<h2>Probability of victory</h2>
 <p>In all, the model simulation resulted in Kelly receiving a higher vote share than McSally just over 95% of the time.</p>
-<div id="kellys-probability-of-victory-according-to-this-model" class="section level3">
-<h3>Kelly’s probability of victory according to this model:</h3>
+<p>This can be illustrated by the proportion of the blue density plot that lies above 50%.</p>
+<div id="kellys-exact-probability-of-victory-according-to-this-model" class="section level3">
+<h3>Kelly’s exact probability of victory according to this model:</h3>
 <pre><code>## [1] 0.9522667</code></pre>
 </div>
 </div>
@@ -372,7 +384,8 @@ Past statewide election results
 </div>
 <div id="summary" class="section level2">
 <h2>Summary:</h2>
-<p>This election was an illustration of a rare instance where a Democrat was favored to win a statewide election in Arizona. While Kelly still did win, it was not the resounding victory many Democrats were hoping for. This echoed the majority of federal elections throughout the country, including the presidential race. Even though McSally benefited from the unaccounted-for red wave, she was unable to ride it to victory like many of her Republican colleagues did.</p>
+<p>Simply put, Mark Kelly underperformed - and Martha McSally overperformed - expectations in this election. While few experts felt McSally had a chance to win this election, including some pollsters that listed Kelly’s advantage at nearly 10 points coming up on election day, McSally made the race more interesting. This appears to be a pervasive narrative across the nation for Republicans in an election year that many expected to be a blue blowout.</p>
+<p>This will be a narrative to watch closely when Kelly’s newly-won seat comes up for reelection for a full term in just two years. Democrats may have taken the White House from Trump and Republicans, but there is good reason to anticipate another national red wave in 2022 if they cannot quickly unite and expand their coalition.</p>
 </div>
 
 

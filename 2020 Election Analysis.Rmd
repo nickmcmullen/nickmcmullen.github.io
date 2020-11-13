@@ -1,0 +1,442 @@
+---
+title: "2020 AZ Senate Special Election Modeling"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=F, results=F, message=F}
+
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(rjags)
+library(MCMCpack)
+library(shiny)
+library(rsconnect)
+library(lubridate)
+
+```
+
+
+
+
+```{r echo=F, results=F, message=F}
+
+#Read and wrangle polling data
+
+#Save the cleaned Alabama_2017_Senate_Polls data as a new .csv for additional cleaning
+#write.csv(Alabama_2017_Senate_polls, "Alabama.csv")
+
+# Read in polling data
+Arizona <- read_csv("2020AZSenatePolls.csv")
+
+Arizona$Undecided.Other <- 0
+
+Arizona$Undecided.Other <- 100 - (Arizona$Kelly + Arizona$McSally)
+
+Arizona$DaysToElection <- as.Date("11/03/2020", format = "%m/%d/%Y") - as.Date(Arizona$DateTo, format = "%m/%d/%Y")
+
+Arizona$DateFrom <- as.Date(Arizona$DateFrom, format = "%m/%d/%Y")
+Arizona$DateTo <- as.Date(Arizona$DateTo, format = "%m/%d/%Y")
+Arizona$DaysToElection <- as.numeric(Arizona$DaysToElection, format = "%m/%d/%Y")
+
+# Wrangle polling data
+AZPolls <- Arizona %>%
+  mutate(KellyTotal = round((Kelly + Undecided.Other/2)/100*Sample)) %>%
+  dplyr::select(Pollster, Rating, KellyTotal, Sample, DaysToElection, DateTo) %>%
+  arrange(as.Date(DateTo))
+
+
+
+```
+
+
+
+
+```{r echo=F, results=F, message=F}
+
+#Funtion to analyze rjags simulation
+
+analyze_results <- function(model_samples, weighted = FALSE, weight = NA) {
+  ## Preliminary calculations
+  # Weighted Analysis
+  if (weighted) {
+    # Calculate weighted mean of theta for each simulation across all polls
+    model_samples1 <- rep(0,30000)
+    for(i in 1:length(model_samples1)) {
+      model_samples1[i] <- weighted.mean(model_samples[i,], w=weights)
+    }
+    
+    # Calculate standard deviation for each poll across all simulations
+    model_sample_sds <- rep(0, ncol(model_samples))
+    for(i in 1:length(model_sample_sds)) {
+      model_sample_sds[i] <- sd(model_samples[,i])
+    }
+    # Calculate weighted mean of all standard deviations
+    model_sample_sd <- weighted.mean(model_sample_sds, w=weights)
+    
+    
+  # Unweighted Analysis  
+  } else {
+    # Calculate mean theta for each simulation across all polls
+    model_samples1 <- model_samples %>% rowMeans()
+  
+    # Calculate standard deviation for each poll across all simulations
+    model_sample_sds <- rep(0, ncol(model_samples))
+    for(i in 1:length(model_sample_sds)) {
+      model_sample_sds[i] <- sd(model_samples[,i])
+    }
+  
+    # Calculate mean of all standard deviations
+    model_sample_sd <- mean(model_sample_sds)
+  
+  }
+  ## Simulate Election results
+  set.seed(2017)
+  model_predictions <- rep(0,30000)
+  for(i in 1:length(model_predictions)) {
+    model_predictions[i] <- rnorm(1, model_samples1[i], model_sample_sd)
+  }
+  
+  
+  # Summary statistics and hypothesis testing
+  ## Summary statistics including mean vote share for Mark Kelly
+  sumstat <- summary(model_predictions)
+  
+  ## 95% Credible Interval for Mark Kelly's vote share
+  CI <- quantile(model_predictions, c(0.025, 0.975))
+  
+  ## Mark Kelly's probability of victory
+  prob <- mean(model_predictions>=.5)
+  
+  # Visualizations
+  model_predictions1 <- data.frame(Kelly=model_predictions, McSally=1-model_predictions) %>%
+  gather("Candidate", "VoteShare", Kelly, McSally)
+  
+  #The mean vote share expected for 2020
+  KellyShare <- mean(model_predictions)
+  McSallyShare <- 1-mean(model_predictions)
+
+  vis <- ggplot(model_predictions1, aes(x = VoteShare, fill = Candidate)) + 
+    geom_density() +
+    geom_vline(xintercept = .488, color="red") +
+    geom_vline(xintercept = .512, color="blue") +
+    facet_wrap(~Candidate, nrow=2) + 
+    scale_fill_manual(values = c("blue", "red"))+
+    xlab("Predicted Vote Share w/ Actual Totals Indicated by Vertical Lines") +
+    ylab("Density")
+
+  
+  return(list(SummaryStatistics = sumstat, CredibleInterval = CI, ProbabilityOfVictory = prob, Visualization = vis, KellyPrediction = mean(model_predictions), McSallyPrediction = 1-mean(model_predictions)))
+}
+
+```
+
+
+```{r echo=F, results=F, message=F}
+
+#Define poll weights
+
+
+# Use exponential decay to weight by days to election
+dayWeights <- exp(-AZPolls$DaysToElection/10)
+
+# Weight by normalized logarithm of sample size
+sampleSizeWeights <- log(AZPolls$Sample)/mean(log(AZPolls$Sample))
+
+# Weight by FiveThirtyEight Pollster ratings
+# A+ = 1
+# A = .97
+# A- = .93
+# B+ = .90
+# B = .87
+# B- = .83
+# C+ = .80
+# C = .77
+# C- = .73
+# D+ = .70
+# D = .67
+# D- = .63
+# F = .6
+# Unknown = .5
+
+pollRatingWeights <- 
+  case_when(
+    AZPolls$Rating == "A+" ~ 1,
+    AZPolls$Rating == "A" ~ .95,
+    AZPolls$Rating == "A-" ~ .93,
+    AZPolls$Rating == "A/B" ~ .9,
+    AZPolls$Rating == "B+" ~ .88,
+    AZPolls$Rating == "B" ~ .85,
+    AZPolls$Rating == "B-" ~ .83,
+    AZPolls$Rating == "B/C" ~ .8,
+    AZPolls$Rating == "C+" ~ .78,
+    AZPolls$Rating == "C" ~ .75,
+    AZPolls$Rating == "C-" ~ .73,
+    AZPolls$Rating == "C/D" ~ .7,
+    AZPolls$Rating == "D+" ~ .68,
+    AZPolls$Rating == "D" ~ .65,
+    AZPolls$Rating == "D-" ~ .63,
+    AZPolls$Rating == "D/F" ~ .6,
+    AZPolls$Rating == "F" ~ .5,
+    AZPolls$Rating == "NR" ~ .5
+  )
+
+
+# Combine weights
+weights <- dayWeights*sampleSizeWeights*pollRatingWeights
+
+
+```
+
+
+
+```{r echo=F, results=F, message=F}
+
+#Vague fundamentals rjags
+
+
+vague_beta_bin_model <- "model{
+  for(i in 1:length(Y)) {
+    #Data
+    Y[i] ~ dbin(theta[i], N[i])
+
+    #Prior
+    theta[i] ~ dbeta(1,1)
+  }
+}"
+
+vague_beta_bin_jags <- jags.model(textConnection(vague_beta_bin_model),
+                         data=list(Y=AZPolls$KellyTotal, N=AZPolls$Sample),
+                         inits=list(.RNG.name="base::Wichmann-Hill", .RNG.seed=2017))
+
+vague_beta_bin_sim <- coda.samples(vague_beta_bin_jags, variable.names=c("theta"), n.iter=30000)
+
+vague_beta_bin_samples <- data.frame(vague_beta_bin_sim[[1]])
+
+
+```
+
+
+
+```{r echo=F, results=F, message=F}
+
+#Unweighted vague beta-binomial results output
+
+vagueUnweightedResults <- analyze_results(vague_beta_bin_samples)
+
+#vagueUnweightedResults
+
+
+```
+
+
+```{r echo=F, results=F, message=F, fig.show='hide'}
+
+#Weighted vague beta-binomial results output
+
+
+vagueWeightedResults <- analyze_results(vague_beta_bin_samples, weighted = TRUE, weight = weights)
+
+#vagueWeightedResults
+
+```
+
+
+```{r echo=F, results=F, message=F}
+
+#Data cleaning for logistic regression for more informed prior (this data is what informs our prior more rigorously)
+
+
+Senate <- read_csv("SenateNationalHistorical.csv")
+
+Senate_1 <- Senate %>%
+  mutate(Total2018 = Republican2018 + Democrat2018, DemShare2012 = Democrat2012/(Democrat2012+Republican2012)*100, DemMargin2012 = DemShare2012 - DemNat2012,
+DemShare2016 = Democrat2016/(Democrat2016 + Republican2016)*100,         
+DemMargin2016 = DemShare2016 - DemNat2016, RepShare2012 = Republican2012/(Democrat2012+Republican2012)*100, RepMargin2012 = RepShare2012 - RepNat2012,
+RepShare2016 = Republican2016/(Republican2016 + Democrat2016)*100,
+RepMargin2016 = RepShare2016 - RepNat2016)
+
+```
+
+
+
+```{r echo=F, results=F, message=F}
+
+#Model specification rjags for logistic regression
+
+
+fundamentals_model <- "model{
+  for(i in 1:length(Y)) {
+    #Data
+    Y[i] ~ dbin(theta[i], N[i])
+
+    #Prior
+    logit(theta[i]) <- beta0 + beta1*X1[i] + beta2*X2[i]
+  }
+
+  #Hyper Priors
+  beta0 ~ dnorm(0, 1/100^2)
+  beta1 ~ dnorm(0, 1/100^2)
+  beta2 ~ dnorm(0, 1/100^2)
+}"
+
+fundamentals_jags <- jags.model(textConnection(fundamentals_model),
+                         data=list(Y=Senate_1$Democrat2018, N=Senate_1$Total2018, X1=Senate_1$DemMargin2012, X2=Senate_1$DemMargin2016),
+                         inits=list(.RNG.name="base::Wichmann-Hill", .RNG.seed=2017))
+
+fundamentals_sim <- coda.samples(fundamentals_jags, variable.names=c("beta0", "beta1", "beta2", "theta"), n.iter=10000)
+
+fundamentals_samples <- data.frame(fundamentals_sim[[1]])
+
+```
+
+
+```{r echo=F, results=F, message=F}
+
+#Calculating Alabama fundamental with approximated coefficients
+
+
+#Calculate Arizona Senate Margin over National Vote for Republicans
+AZSenDem2018 <- 50
+NatSenDem2018 <- 59.3
+DemSenMargin2018 <- AZSenDem2018 - NatSenDem2018
+
+#Calculate Arizona Presidential Margin over National Vote for Hillary Clinton
+AZPresDem2016 <- 44.6
+NatPresDem2016 <- 48
+DemPresMargin2016 <- AZPresDem2016 - NatPresDem2016
+
+#Calculate Fundamentals for Arizona
+logtheta <- fundamentals_samples$beta0 + DemSenMargin2018*fundamentals_samples$beta1 + DemPresMargin2016*fundamentals_samples$beta2
+theta <- 1/(1+exp(-logtheta))
+
+#Summary Statistics
+mean(theta)
+sd(theta)
+quantile(theta, c(0.025, 0.975))
+mean(theta>.5)
+
+```
+
+
+
+```{r echo=F, results=F, message=F}
+
+#Informed beta-binomial model using summary stats from simulated coefficients in logistic regression
+
+
+AZwithFundamentals_model <- "model{
+  for(i in 1:length(Y)) {
+    #Data
+    Y[i] ~ dbin(theta[i], N[i])
+
+    #Prior
+    theta[i] ~ dbeta(100*alpha, 100 - 100*alpha)
+  }
+  
+  #Hyperprior
+  alpha ~ dnorm(0.432095, 1/0.03615548^2)
+}"
+
+AZwithFundamentals_jags <- jags.model(textConnection(AZwithFundamentals_model),
+                         data=list(Y=AZPolls$KellyTotal, N=AZPolls$Sample),
+                         inits=list(.RNG.name="base::Wichmann-Hill", .RNG.seed=2017))
+
+AZwithFundamentals_sim <- coda.samples(AZwithFundamentals_jags, variable.names=c("alpha", "theta"), n.iter=30000)
+
+AZwithFundamentals_samples <- data.frame(AZwithFundamentals_sim[[1]])
+
+```
+
+
+
+```{r echo=F, results=F, message=F}
+#Cleaning rjags samples for analysis
+
+AZwithFundamentals_samples1 <- AZwithFundamentals_samples %>% dplyr::select(-alpha)
+
+```
+
+
+
+```{r echo=F, results=F, message=F}
+#Analyze results from the new model with informed hyperpriors
+
+final <- analyze_results(AZwithFundamentals_samples1, weighted = TRUE, weight = weights)
+
+
+```
+
+## Overview
+
+This model simulated this election 30,000 times using an informed Bayesian prior and took into consideration the following:
+\item Poll numbers
+\item Poll quality
+\item Poll recency
+\item Past statewide election results
+\item Past national election results
+
+## Simulation Results:
+
+
+```{r echo=F, message=F, results=F}
+
+final
+
+```
+
+## Plot Density Overlap
+
+The area in which the density curves overlap (the simulation predicted that McSally would receive a higher vote than Kelly) is quite small based on this model. 
+
+In all, the model simulation resulted in Kelly receiving a higher vote share than McSally just over 95% of the time.
+
+### Kelly's probability of victory according to this model: 
+
+```{r echo=F}
+
+#Kelly's probability of victory
+
+final$ProbabilityOfVictory
+
+```
+
+
+## Predicted vs. Actual Vote Shares: 
+
+```{r echo=F, results = 'asis'}
+
+#Kelly's predicted vote share:
+
+kellyPred <- final$KellyPrediction
+kellyActual <- .512
+
+#McSally's predicted vote share:
+
+mcsallyPred <- final$McSallyPrediction
+mcsallyActual <- .488
+
+Kelly <- c(kellyPred, kellyActual)
+McSally <- c(mcsallyPred, mcsallyActual)
+
+results <- matrix(c(Kelly, McSally), nrow=2)
+rownames(results) <- c("Predicted", "Actual")
+colnames(results) <- c("Kelly", "McSally")
+
+library(knitr)
+kable(results, format="simple", caption="Predicted vs. Actual Vote Share")
+```
+
+## Summary: 
+
+This election was an illustration of a rare instance where a Democrat was favored to win a statewide election in Arizona. While Kelly still did win, it was not the resounding victory many Democrats were hoping for. This echoed the majority of federal elections throughout the country, including the presidential race. Even though McSally benefited from the unaccounted-for red wave, she was unable to ride it to victory like many of her Republican colleagues did.
+
+
+
+
+

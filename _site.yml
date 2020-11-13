@@ -16,7 +16,7 @@ navbar:
       icon: fa-bar-chart
       menu:
         - text: "2020 AZ Senate"
-          href: 2020-Election-Analysis.html
+          href: AZ-Senate-Election-Analysis.html
         - text: "Survival Analysis - TC Real Estate"
           href: Final_Draft_1.pdf
         - text: "2017 AL Senate"

@@ -13,6 +13,7 @@
 
 <title>About</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -24,6 +25,15 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -69,6 +79,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 
 
@@ -275,28 +286,28 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fa fa-home"></span>
+    <span class="fas fa-home"></span>
      
     Home
   </a>
 </li>
 <li>
   <a href="about.html">
-    <span class="fa fa-info"></span>
+    <span class="fas fa-info"></span>
      
     About
   </a>
 </li>
 <li>
   <a href="impact.html">
-    <span class="fa fa-cogs"></span>
+    <span class="fas fa-cogs"></span>
      
     Impact
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-bar-chart"></span>
+    <span class="fas fa-bar-chart"></span>
      
     Analyses
      
@@ -335,17 +346,18 @@ $(document).ready(function () {
 <p> </p>
 <div id="work" class="section level2">
 <h2>Work</h2>
-<p><img src="WaW_Logo.png" /></p>
+<p><img src="RStudio%20Logo.png" /></p>
 <p><br />
 </p>
-<p>I am currently the <strong>Senior Specialist, Total Rewards Content</strong> at <a href="https://worldatwork.org/" target="_blank">WorldatWork</a>, the leading global nonprofit organization for professionals who are engaged in the critically important practice of Total Rewards. I am proud to help fulfill WorldatWork’s vision to create a world of productive, committed, and inspired workforces fueled by meaningful Total Rewards.</p>
+<p>I am currently the <strong>People Operations Partner</strong> at <a href="https://rstudio.com/" target="_blank">RStudio PBC</a>. We create open source and professional software solutions that help the world make sense of data.</p>
+<p>As a key business partner for the organization, I lead our compensation function, align talent strategies with our organizational values, coach managers through the performance management process, and handle employee relations issues.</p>
 <p><strong>Skills</strong></p>
 <ul>
-<li><p>HR Analytics</p></li>
+<li><p>People Analytics</p></li>
 <li><p>HR System Management and Implementations</p></li>
 <li><p>Process Automation</p></li>
 <li><p>Compensation Strategy and Program Management</p></li>
-<li><p>Talent Management</p></li>
+<li><p>Talent Management and Workforce Strategy</p></li>
 <li><p>Learning &amp; Development</p></li>
 <li><p>Onboarding</p></li>
 </ul>
@@ -386,7 +398,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

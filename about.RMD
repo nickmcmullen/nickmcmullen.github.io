@@ -7,16 +7,18 @@ output: html_document
 
 ## Work
 
-![](WaW_Logo.png)
+![](RStudio Logo.png)
 
 \
 
 
-I am currently the **Senior Specialist, Total Rewards Content** at [WorldatWork](https://worldatwork.org/){target="_blank"}, the leading global nonprofit organization for professionals who are engaged in the critically important practice of Total Rewards. I am proud to help fulfill WorldatWork's vision to create a world of productive, committed, and inspired workforces fueled by meaningful Total Rewards.
+I am currently the **People Operations Partner** at [RStudio PBC](https://rstudio.com/){target="_blank"}. We create open source and professional software solutions that help the world make sense of data.
+
+As a key business partner for the organization, I lead our compensation function, align talent strategies with our organizational values, coach managers through the performance management process, and handle employee relations issues. 
 
 **Skills**
 
-* HR Analytics
+* People Analytics
 
 * HR System Management and Implementations
 
@@ -24,7 +26,7 @@ I am currently the **Senior Specialist, Total Rewards Content** at [WorldatWork]
 
 * Compensation Strategy and Program Management
 
-* Talent Management
+* Talent Management and Workforce Strategy
 
 * Learning & Development 
 

@@ -9,9 +9,14 @@ Certified human resources professional with data and statistical analysis expert
 
 Experience building and administering base and variable compensation plans
 
-Skills: People analytics, job analysis and documentation, statistical analysis, talent management, talent onboarding, recruiting support and administration, compensation program management, HR system management, implementation & administration
+Skills: People analytics, job analysis and documentation, statistical analysis, 
+talent management, talent onboarding, recruiting support and administration, 
+compensation program management, HR system management, 
+implementation & administration
 
-Technical experience: R programming, RStudio IDE, Excel, Tableau Desktop, BambooHR, Greenhouse.io, UltiPro/UKG, iCIMS, Salary.com CompAnalyst, Cornerstone OnDemand LMS, Fuse Universal LXP, Salesforce
+Technical experience: R programming, RStudio IDE, Excel, Tableau Desktop, BambooHR, 
+Greenhouse.io, UltiPro/UKG, iCIMS, Salary.com CompAnalyst, Cornerstone OnDemand LMS, 
+Fuse Universal LXP, Salesforce
 
 EXPERIENCE
 ====================================================================================

@@ -1,9 +1,7 @@
 Nicholas McMullen
-39137 N Parker Ln.
-Anthem, AZ 85086
-     cell: 928-951-4369
-     email: nicholasgmcmullen@gmail.com
-     web: nickmcmullen.github.io
+Human Resources and Compensation Leader
+Phoenix, AZ
+nicholasgmcmullen@gmail.com | nickmcmullen.github.io
 
 SUMMARY
 ====================================================================================
@@ -13,21 +11,22 @@ Experience building and administering base and variable compensation plans
 
 Skills: People analytics, job analysis and documentation, statistical analysis, talent management, talent onboarding, recruiting support and administration, compensation program management, HR system management, implementation & administration
 
-Technical experience: R programming, RStudio IDE, Excel, Tableau Desktop, UltiPro, iCIMS, Salary.com CompAnalyst, Cornerstone OnDemand LMS, Fuse Universal LXP, Salesforce
+Technical experience: R programming, RStudio IDE, Excel, Tableau Desktop, BambooHR, Greenhouse.io, UltiPro/UKG, iCIMS, Salary.com CompAnalyst, Cornerstone OnDemand LMS, Fuse Universal LXP, Salesforce
 
-EMPLOYMENT
+EXPERIENCE
 ====================================================================================
-RStudio PBC                                                   January 2021 - Present
+RStudio PBC                                                   
 Phoenix, Arizona
 
  People Operations Partner                                    January 2021 - Present
-  * Manage compensation functions, including base structure development and variable pay
-  * Create career progression framework and align with compensation philosophy
-  * Align broader talent strategies with company values
-  * Provide coaching and support to managers
-  * Assist with employee relations issues
+  * Lead compensation consulting and review function
+  * Analyze people operations data to provide insights and reports to leadership
+  * Train and coach managers to have effective conversations with team members
+  * Handle employee relations intakes and assist with investigations
+  * Partner with company leaders to set career frameworks and workforce strategy
+  * Support all people-related change initatives as technical and strategic resource
 
-WorldatWork Total Rewards Association                  September 2020 - January 2021
+WorldatWork Total Rewards Association                  
 Phoenix, Arizona
 
  Sr. Specialist, Total Rewards Content                 September 2020 - January 2021
@@ -36,7 +35,7 @@ Phoenix, Arizona
   * Conduct Total Rewards market research to ensure the Association maintains innovative resources
   * Support the selection of top industry experts to be speakers, faculty, and publication authors
 
-Alliance Residential Company (acquired by Greystar)       June 2017 - September 2020
+Alliance Residential Company (acquired by Greystar)       
 Phoenix, Arizona
 
  Manager, HR Systems and Analytics                    February 2020 - September 2020
@@ -67,33 +66,41 @@ Phoenix, Arizona
 
 EDUCATION
 ====================================================================================
-Macalester College                                            August 2014 - May 2018
+Macalester College                                            
 St. Paul, MN, USA
 Bachelor of Arts in Applied Mathematics and Statistics, magna cum laude
- * GPA: 3.82/4.0
- * Phi Beta Kappa academic honor society inductee
 
 CERTIFICATIONS
 ====================================================================================
-Certified Compensation Professional (CCP)			                         November 2020
+Certified Compensation Professional (CCP)			                         
   WorldatWork Total Rewards Association
 
-Global Remuneration Professional (GRP)			       	                   November 2020
+Global Remuneration Professional (GRP)			       	                   
   WorldatWork Total Rewards Association
 
-Professional in Human Resources (PHR)                                      July 2020
+Professional in Human Resources (PHR)                                      
   Human Resources Certification Institute (HRCI)
 
-Tableau Desktop Certified Associate                                     October 2019
+Tableau Desktop Certified Associate                                     
   Tableau Software
 
-Leading Accountable Engagement                                          October 2019
+Leading Accountable Engagement                                          
   Dale Carnegie Training
 
-AFFILIATIONS & VOLUNTEERISM 
+VOLUNTEERISM 
 ====================================================================================
-Deer Valley Unified School District                           January 2020 - Present
-  Certified Performance Pay Committee Member
+Author's Advisory Committee Member                               July 2021 - Present
+  Dale Carnegie Training
+
+Certified Performance Pay Committee Member                    January 2020 - Present
+  Deer Valley Unified School District
+  
+Emerging Leaders Committee                                     July 2019 - June 2020
+  Alliance Residential Company  
+  
+AFFILIATIONS
+====================================================================================
+Human Resources Certification Institute (HRCI)                  March 2020 - Present
 
 WorldatWork Total Rewards Association                         October 2019 - Present
 

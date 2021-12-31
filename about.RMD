@@ -12,9 +12,9 @@ output: html_document
 \
 
 
-I am currently the **People Operations Partner** at [RStudio PBC](https://rstudio.com/){target="_blank"}. We create open source and professional software solutions that help the world make sense of data.
+I am currently the **Compensation & Analytics Lead** at [RStudio PBC](https://rstudio.com/){target="_blank"}. We create open source and enterprise software solutions that help the world make sense of data.
 
-As a key business partner for the organization, I lead our compensation function, align talent strategies with our organizational values, coach managers through the performance management process, and handle employee relations issues. 
+As the rewards leader for the organization, I help our executives create meaningful and creative compensation solutions that pay RStudio employees equitably and competitively. I am also a key operational business partner to all department heads at RStudio as we scale 50-60% growth in 2022.
 
 **Skills**
 
@@ -35,7 +35,11 @@ As a key business partner for the organization, I lead our compensation function
 
 **Software Expertise**
 
-* RStudio
+* RStudio IDE
+
+* BambooHR HRIS
+
+* Greenhouse ATS
 
 * iCIMS ATS
 

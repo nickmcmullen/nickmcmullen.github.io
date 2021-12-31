@@ -5,9 +5,10 @@ nicholasgmcmullen@gmail.com | nickmcmullen.github.io
 
 SUMMARY
 ====================================================================================
-Certified human resources professional with data and statistical analysis expertise
+Certified human resources professional building reproducable, code-based solutions
 
-Experience building and administering base and variable compensation plans
+Experience building and administering base and variable compensation plans, career
+frameworks, job architectures, and self-service data and analytics solutions
 
 Skills: People analytics, job analysis and documentation, statistical analysis, 
 talent management, talent onboarding, recruiting support and administration, 
@@ -23,7 +24,15 @@ EXPERIENCE
 RStudio PBC                                                   
 Phoenix, Arizona
 
- People Operations Partner                                    January 2021 - Present
+ Compensation & Analytics Lead                                January 2022 - Present
+  * Develop scalable organizational global compensation structures and strategies
+  * Manage all cadenced compensation and talent reviews with executives
+  * Create and administer long-term incentive compensation programs
+  * Oversee job analysis, documentation, and evaluation
+  * Lead employee listening function including organizational health and employee lifecycle surveys
+  * Build reproducible, code-based solutions to provide proactive insights to executives
+
+ People Operations Partner                               January 2021 - January 2022
   * Lead compensation consulting and review function
   * Analyze people operations data to provide insights and reports to leadership
   * Train and coach managers to have effective conversations with team members
@@ -35,21 +44,21 @@ WorldatWork Total Rewards Association
 Phoenix, Arizona
 
  Sr. Specialist, Total Rewards Content                 September 2020 - January 2021
-  * Lead the Association's people analytics practice
-  * Build infrastructure (processes, analyses, relationships) to improve strategic connections
-  * Conduct Total Rewards market research to ensure the Association maintains innovative resources
-  * Support the selection of top industry experts to be speakers, faculty, and publication authors
+  * Developed a people analytics practice strategy, including market research and competitive analysis
+  * Advised association leadership on key trends in the marketplace
+  * Assisted in content creation, distribution, and strategy for the total rewards practice
 
 Alliance Residential Company (acquired by Greystar)       
 Phoenix, Arizona
 
- Manager, HR Systems and Analytics                    February 2020 - September 2020
+ Manager, People Systems and Analytics               February 2020 - September 2020
   * Oversaw all HR systems, including admin & data integrations for HRIS, ATS, Compensation, LMS/LXP
   * Conducted job analyses and evaluations for market pricing
   * Oversaw Quarterly Incentive Program, paying out $3.5M+ quarterly
   * Conducted human capital analytics and reporting to support the People function
 
- Talent Analytics Manager                                 August 2018 - February 2020
+ Talent Analytics Manager                                 May 2018 - February 2020
+  * Led data & analytics function for talent and L&D functions
   * Oversaw Talent Coordinator onboarding team
   * Managed iCIMS ATS as lead administrator
   * Assisted with base pay structure development, managed Quarterly Incentive Program
@@ -57,12 +66,6 @@ Phoenix, Arizona
   * Automated department billing processes, saving 25 hours/month of admim work
   * Implemented Fuse LXP, migrated data and content saving $15k in consultant fees
   * Implemented Salary.com CompAnalyst and market-priced more than 500 company jobs
-
- Learning Manager                                              May 2018 - August 2018
-  * Led data and analytics function for Learning & Development department
-  * Conducted learning needs analyses to help guide future training development
-  * Oversaw Cornerstone OnDemand LMS as lead administrator 
-  * Reduced past due training companywide by over 40% with Tableau Dashboard
 
  Training Intern                                              June 2017 - August 2017
   * Conducted reporting and assisted with administration in Cornerstone OnDemand LMS

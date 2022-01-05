@@ -15,14 +15,14 @@ talent management, talent onboarding, recruiting support and administration,
 compensation program management, HR system management, 
 implementation & administration
 
-Technical experience: R programming, RStudio IDE, Excel, Tableau Desktop, BambooHR, 
-Greenhouse.io, UltiPro/UKG, iCIMS, Salary.com CompAnalyst, Cornerstone OnDemand LMS, 
+Technical experience: R, RStudio IDE, Tableau Desktop, Excel, BambooHR, 
+Greenhouse.io, Culture Amp, UltiPro/UKG, iCIMS, Salary.com CompAnalyst, Cornerstone OnDemand LMS, 
 Fuse Universal LXP, Salesforce
 
 EXPERIENCE
 ====================================================================================
 RStudio PBC                                                   
-Phoenix, Arizona
+Remote
 
  Compensation & Analytics Lead                                January 2022 - Present
   * Develop scalable organizational global compensation structures and strategies
@@ -33,15 +33,15 @@ Phoenix, Arizona
   * Build reproducible, code-based solutions to provide proactive insights to executives
 
  People Operations Partner                               January 2021 - January 2022
-  * Lead compensation consulting and review function
-  * Analyze people operations data to provide insights and reports to leadership
-  * Train and coach managers to have effective conversations with team members
-  * Handle employee relations intakes and assist with investigations
-  * Partner with company leaders to set career frameworks and workforce strategy
-  * Support all people-related change initatives as technical and strategic resource
+  * Led compensation consulting and review function
+  * Analyzed people operations data to provide insights and reports to leadership
+  * Trained and coached managers to have effective conversations with team members
+  * Handled employee relations intakes and assist with investigations
+  * Partnered with company leaders to set career frameworks and workforce strategy
+  * Supported all people-related change initatives as technical and strategic resource
 
 WorldatWork Total Rewards Association                  
-Phoenix, Arizona
+Remote
 
  Sr. Specialist, Total Rewards Content                 September 2020 - January 2021
   * Developed a people analytics practice strategy, including market research and competitive analysis

@@ -3,9 +3,6 @@ title: "Business Impact"
 output: html_document
 ---
 
-\
-
-![](alliance.jpg){width=55, height=55}
 
 \
 

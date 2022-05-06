@@ -16,7 +16,7 @@ Technical experience: R, RStudio IDE, Tableau Desktop, Excel, BambooHR, Greenhou
 
 EXPERIENCE
 
-Compensation & Analytics Lead                                
+Compensation and Analytics Lead                                
 RStudio PBC
 Remote
 January 2022 - Present
@@ -38,33 +38,33 @@ Handled employee relations intakes and assist with investigations
 Partnered with company leaders to set career frameworks and workforce strategy
 Supported all people-related change initatives as technical and strategic resource
 
-Sr. Specialist, Total Rewards Content              
-WorldatWork Total Rewards Association
+Senior Specialist Total Rewards Content              
+WorldatWork
 Remote, AZ, USA
 September 2020 - January 2021
 Developed a people analytics practice strategy, including market research and competitive analysis
 Advised association leadership on key trends in the marketplace
 Assisted in content creation, distribution, and strategy for the total rewards practice
 
-Manager, People Systems and Analytics               
+Manager People Systems and Analytics               
 Alliance Residential Company
 Phoenix, AZ, USA
 February 2020 - September 2020
-Oversaw all HR systems, including admin & data integrations for HRIS, ATS, Compensation, LMS/LXP
+Oversaw all HR systems, including admin and data integrations for HRIS, ATS, Compensation, LMS
 Conducted job analyses and evaluations for market pricing
 Managed Quarterly Incentive Program, paying out $3.5M+ quarterly
 Conducted human capital analytics and reporting to support the People function
 
-Manager, Talent Analytics and Operations            
+Manager Talent Analytics and Operations            
 Alliance Residential Company
 Phoenix, AZ, USA
 May 2018 - February 2020
-Led data & analytics function for talent and L&D functions
+Led data and analytics function for talent and L&D functions
 Managed Talent Coordinator onboarding team
 Oversaw iCIMS ATS as lead administrator
 Assisted with base pay structure development, managed Quarterly Incentive Program
 Conducted HCM analysis and process improvement for Talent Management department
-Automated department billing processes, saving 25 hours/month of admim work
+Automated department billing processes, saving 25 hours per month of admim work
 Implemented Fuse LXP, migrated data and content saving $15k in consultant fees
 Implemented Salary.com CompAnalyst and market-priced more than 500 company jobs
 

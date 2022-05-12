@@ -1,5 +1,5 @@
 Nicholas G. McMullen
-People Operations and Compensation Leader
+Certified People Operations and Compensation Professional
 Phoenix, AZ, USA
 e: nicholasgmcmullen@gmail.com
 w: nickmcmullen.github.io
@@ -18,8 +18,8 @@ EXPERIENCE
 
 Compensation and Analytics Lead                                
 RStudio PBC
-Remote, AZ, USA
-January 2022 - Present
+Phoenix, AZ, USA
+01/2022 - Present
 Develop scalable organizational global compensation structures and strategies
 Manage all cadenced compensation and talent reviews with executives
 Create and administer long-term incentive compensation programs
@@ -29,8 +29,8 @@ Build reproducible, code-based solutions to provide proactive insights to execut
 
 People Operations Partner                              
 RStudio PBC
-Remote, AZ, USA
-January 2021 - January 2022
+Phoenix, AZ, USA
+01/2021 - 01/2022
 Led compensation consulting and review function
 Analyzed people operations data to provide insights and reports to leadership
 Trained and coached managers to have effective conversations with team members
@@ -40,8 +40,8 @@ Supported all people-related change initatives as technical and strategic resour
 
 Senior Specialist Total Rewards Content              
 WorldatWork
-Remote, AZ, USA
-September 2020 - January 2021
+Scottsdale, AZ, USA
+09/2020 - 01/2021
 Developed a people analytics practice strategy, including market research and competitive analysis
 Advised association leadership on key trends in the marketplace
 Assisted in content creation, distribution, and strategy for the total rewards practice
@@ -49,7 +49,7 @@ Assisted in content creation, distribution, and strategy for the total rewards p
 Manager People Systems and Analytics               
 Alliance Residential Company
 Phoenix, AZ, USA
-February 2020 - September 2020
+02/2020 - 09/2020
 Oversaw all HR systems, including admin and data integrations for HRIS, ATS, Compensation, LMS
 Conducted job analyses and evaluations for market pricing
 Managed Quarterly Incentive Program, paying out $3.5M+ quarterly
@@ -58,7 +58,7 @@ Conducted human capital analytics and reporting to support the People function
 Manager Talent Analytics and Operations            
 Alliance Residential Company
 Phoenix, AZ, USA
-May 2018 - February 2020
+05/2018 - 02/2020
 Led data and analytics function for talent and L&D functions
 Managed Talent Coordinator onboarding team
 Oversaw iCIMS ATS as lead administrator
@@ -68,10 +68,10 @@ Automated department billing processes, saving 25 hours per month of admim work
 Implemented Fuse LXP, migrated data and content saving $15k in consultant fees
 Implemented Salary.com CompAnalyst and market-priced more than 500 company jobs
 
-Training Intern                                            
+Learning and Development Intern                                            
 Alliance Residential Company
 Phoenix, AZ, USA
-June 2017 - August 2017
+06/2017 - 08/2017
 Conducted reporting and assisted with administration in Cornerstone OnDemand LMS
 Analyzed training program data to help guide future training investments
 Assisted with internal certification management for employees nationwide

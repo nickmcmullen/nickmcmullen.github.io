@@ -1,8 +1,9 @@
 Nicholas G. McMullen
 Certified People Operations and Compensation Professional
-Phoenix, AZ, USA
-e: nicholasgmcmullen@gmail.com
-w: nickmcmullen.github.io
+email: nicholasgmcmullen@gmail.com
+website: nickmcmullen.github.io
+social: www.linkedin.com/in/nicholas-mcmullen/
+
 
 SUMMARY
 
@@ -14,11 +15,12 @@ Skills: People analytics, job analysis and documentation, statistical analysis, 
 
 Technical experience: R, RStudio IDE, Tableau Desktop, Excel, BambooHR, Greenhouse.io, Culture Amp, UltiPro/UKG, iCIMS, Salary.com CompAnalyst, Cornerstone OnDemand LMS, Fuse Universal LXP, Salesforce
 
+
 EXPERIENCE
 
 Compensation and Analytics Lead                                
 RStudio PBC
-Phoenix, AZ, USA
+Boston, MA, USA
 01/2022 - Present
 Develop scalable organizational global compensation structures and strategies
 Manage all cadenced compensation and talent reviews with executives
@@ -29,7 +31,7 @@ Build reproducible, code-based solutions to provide proactive insights to execut
 
 People Operations Partner                              
 RStudio PBC
-Phoenix, AZ, USA
+Boston, MA, USA
 01/2021 - 01/2022
 Led compensation consulting and review function
 Analyzed people operations data to provide insights and reports to leadership
@@ -76,11 +78,13 @@ Conducted reporting and assisted with administration in Cornerstone OnDemand LMS
 Analyzed training program data to help guide future training investments
 Assisted with internal certification management for employees nationwide
 
+
 EDUCATION
 
 Bachelor of Arts magna cum laude, Applied Mathematics and Statistics
 Macalester College                                            
 St. Paul, MN, USA
+
 
 CERTIFICATIONS
 
@@ -100,6 +104,7 @@ Tableau Desktop 2019 Certified Associate
 Tableau Software
 Expired October 2021
 
+
 VOLUNTEERISM 
 
 Author's Advisory Committee Member
@@ -110,6 +115,7 @@ Certified Performance Pay Committee Member
 Deer Valley Unified School District
 January 2020 - Present
   
+
 AFFILIATIONS
 
 Human Resources Certification Institute (HRCI)                  

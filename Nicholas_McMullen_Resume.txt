@@ -1,8 +1,9 @@
 Nicholas G. McMullen
-Certified People Operations and Compensation Professional
-email: nicholasgmcmullen@gmail.com
-website: nickmcmullen.github.io
-social: www.linkedin.com/in/nicholas-mcmullen/
+Certified Rewards and Human Resources Professional
+Phoenix, AZ, USA
+e: nicholasgmcmullen@gmail.com
+w: nickmcmullen.github.io
+s: www.linkedin.com/in/nicholas-mcmullen/
 
 
 SUMMARY
@@ -11,7 +12,7 @@ Certified human resources professional building reproducable, code-based solutio
 
 Experienced at building and administering base and variable compensation plans, career frameworks, job architectures, and self-service data and analytics solutions
 
-Skills: People analytics, job analysis and documentation, statistical analysis, talent management, talent onboarding, recruiting support and administration, compensation program management, HR system management, implementation & administration
+Skills: People analytics, job analysis and documentation, statistical analysis, talent management, talent onboarding, recruiting support and administration, rewards program management, HR system management, implementation & administration
 
 Technical experience: R, RStudio IDE, Tableau Desktop, Excel, BambooHR, Greenhouse.io, Culture Amp, UltiPro/UKG, iCIMS, Salary.com CompAnalyst, Cornerstone OnDemand LMS, Fuse Universal LXP, Salesforce
 
@@ -90,11 +91,11 @@ CERTIFICATIONS
 
 Certified Compensation Professional (CCP)			                         
 WorldatWork Total Rewards Association
-Expires November 2024
+Expires November 2023
 
 Global Remuneration Professional (GRP)			       	                   
 WorldatWork Total Rewards Association
-Expires November 2024
+Expires November 2023
 
 Professional in Human Resources (PHR)                                      
 Human Resources Certification Institute (HRCI)

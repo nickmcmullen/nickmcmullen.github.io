@@ -23,23 +23,26 @@ Compensation and Analytics Lead
 RStudio PBC
 Boston, MA, USA
 01/2022 - Present
-Develop scalable organizational global compensation structures and strategies
-Manage all cadenced compensation and talent reviews with executives
-Create and administer long-term incentive compensation programs
-Oversee job analysis, documentation, and evaluation
-Lead employee listening function including organizational health and employee lifecycle surveys
-Build reproducible, code-based solutions to provide proactive insights to executives
+Establish dedicated compensation consultation function
+Conduct job analysis, evaluation, and benchmarking for all current and new company jobs
+Implement Radford salary survey and benchmarking tool
+Architect suite of automated dashboards using an R-powered shiny app to provide key stakeholders with a high-level overview of employee lifecycle metrics
+Act as lead People Ops stakeholder for building automated data exchange between ATS and HRIS
+Lead automated data exchange setup between HRIS and employee engagement/listening platform
+Build and automated employee lifecycle surveys including a 90-day new hire survey and annual employee engagement survey
+
 
 People Operations Partner                              
 RStudio PBC
 Boston, MA, USA
 01/2021 - 01/2022
-Led compensation consulting and review function
-Analyzed people operations data to provide insights and reports to leadership
-Trained and coached managers to have effective conversations with team members
-Handled employee relations intakes and assist with investigations
-Partnered with company leaders to set career frameworks and workforce strategy
-Supported all people-related change initatives as technical and strategic resource
+Established company wide job code architecture 
+Assisted with talent management initiatives and employee relations matters 
+Architected career frameworks for technical staff
+Created and led “manager meetup” development calls
+Conducted 90-day check ins with all new employees 
+managed job analysis, evaluation, and benchmarking process
+
 
 Senior Specialist Total Rewards Content              
 WorldatWork

@@ -15,8 +15,10 @@ navbar:
         - text: "Projects"
         - text: "Tucson, AZ Neighborhood Change"
           href: https://nickmcmullen.shinyapps.io/Final-Project-McMullen-PAF516/
+          target: _blank
         - text: "Tempe, AZ Traffic Data"
           href: https://nickmcmullen.shinyapps.io/Final-Project-McMullen/
+          target: _blank
         - text: "2020 AZ Senate"
           href: AZ-Senate-Election-Analysis.html
         - text: "Twin Cities Real Estate"

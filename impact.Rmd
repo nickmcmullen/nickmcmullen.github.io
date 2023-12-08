@@ -6,11 +6,11 @@ output: html_document
 
 \
 
- <font size="12"> $29,423.08 </font> saved in consulting fees and employee time through data-driven processes and efficiencies
+ <font size="12"> $30,000+ </font> saved in consulting fees and employee time through data-driven processes and efficiencies
 
- <font size="12"> 500+ </font> jobs evaluated and market priced for companywide compensation program development
+ <font size="12"> 1000+ </font> jobs evaluated and market priced for companywide compensation program development
 
- <font size="12"> 4320 </font> employees successfully onboarded across 20 states
+ <font size="12"> 4000+ </font> employees successfully onboarded across 25 states
 
  <font size="12"> 31.64% </font> YoY reduction in time to fill open requisitions
 

@@ -1,5 +1,5 @@
 Nicholas G. McMullen
-Certified Rewards and Human Resources Professional
+Total Rewards and Human Resources Professional
 Phoenix, AZ, USA
 e: nicholasgmcmullen@gmail.com
 w: nickmcmullen.github.io
@@ -19,10 +19,25 @@ Technical experience: R, RStudio IDE, Tableau Desktop, Excel, BambooHR, Greenhou
 
 EXPERIENCE
 
+
+Manager, Total Rewards
+Tanium
+Kirkland, WA, USA
+11/2022 - Present
+Administer semi-annual merit cycle including budget planning, HRIS configuration, pre- and post-cycle data audits, project planning, and pay equity
+Administer annual RSU refresh grant cycle
+Consult with recruiters, HRBPs, and business leaders on compensation-related issues
+Benchmark and approve compensation for all external job postings
+Create and propose compensation packages for internal transfers and promotions
+Lead global job analysis and evaluation efforts 
+Participate in annual salary surveys
+Audit and maintain integrity of compensation-related data in HRIS
+
+
 Compensation and Analytics Lead                                
 RStudio PBC
 Boston, MA, USA
-01/2022 - Present
+01/2022 - 11/2022
 Establish dedicated compensation consultation function
 Conduct job analysis, evaluation, and benchmarking for all current and new company jobs
 Implement Radford salary survey and benchmarking tool
@@ -92,17 +107,21 @@ St. Paul, MN, USA
 
 CERTIFICATIONS
 
+Senior Professional in Human Resources (SPHR)
+Human Resources Certification Institute (HRCI)
+Expires February 2027
+
 Certified Compensation Professional (CCP)			                         
 WorldatWork Total Rewards Association
-Expires November 2023
+Expires November 2026
 
 Global Remuneration Professional (GRP)			       	                   
 WorldatWork Total Rewards Association
-Expires November 2023
+Expires November 2026
 
 Professional in Human Resources (PHR)                                      
 Human Resources Certification Institute (HRCI)
-Expires February 2024
+Expires February 2027
 
 Tableau Desktop 2019 Certified Associate                                     
 Tableau Software
@@ -113,11 +132,11 @@ VOLUNTEERISM
 
 Author's Advisory Committee Member
 Dale Carnegie Training
-July 2021 - Present
+July 2021 - January 2023
 
 Certified Performance Pay Committee Member
 Deer Valley Unified School District
-January 2020 - Present
+January 2020 - January 2023
   
 
 AFFILIATIONS

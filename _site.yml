@@ -9,22 +9,9 @@ navbar:
     - text: "About"
       icon: fa-info
       href: about.html
-    - text: "Analyses"
+    - text: "Projects"
       icon: fa-bar-chart
-      menu:
-        - text: "Projects"
-        - text: "Tucson, AZ Neighborhood Change"
-          href: https://nickmcmullen.shinyapps.io/Final-Project-McMullen-PAF516/
-        - text: "Tempe, AZ Traffic Data"
-          href: https://nickmcmullen.shinyapps.io/Final-Project-McMullen/
-          target: _blank
-        - text: "2020 AZ Senate"
-          href: AZ-Senate-Election-Analysis.html
-        - text: "Twin Cities Real Estate"
-          href: Final_Draft_1.pdf
-        - text: "2017 AL Senate"
-          href: FinalReport.html
-
+      href: projects.html
         
         
 output:

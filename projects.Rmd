@@ -1,0 +1,47 @@
+---
+title: "Projects"
+output: html_document
+---
+
+## Models of Neighborhood Change in Tucson, AZ
+
+A Shiny dashboard completed as part of a final project in a data analytics practicum leveraging geographic data, US Census data, and historical real estate prices to provide a full picture of neighborhood demographics in Tucson and how they changed over time.
+
+[Models of neighborhood change in Tucson, AZ](https://nickmcmullen.shinyapps.io/Final-Project-McMullen-PAF516/){target="_blank"}
+
+**Credit:** Dr. Anthony Howell of ASU Watts College of Public Service and Community Solutions provided programming resources and helpful syntax to aid in the completion of this project.
+
+## Traffic Accidents in Tempe, AZ
+
+A Shiny dashboard completed as part of a final project in an R programming course. Provides detailed insight into trends in accidents, hazardous locations, and other traffic-related information.
+
+[Tempe, AZ Traffic Accidents](https://nickmcmullen.shinyapps.io/Final-Project-McMullen/){target="_blank"}
+
+**Credit:** Dr. Corey Carlson of ASU Watts College of Public Service and Community Solutions provided programming resources and helpful syntax to aid in the completion of this project.
+
+## 2020 AZ Senate Election
+
+The 2020 US Senate election in Arizona was on of the most fascinating and competitive races in recent history in the wake of John McCain's passing. Here I conduct a brief Bayesian analysis, updating the prior with poll data to make an informed prediction on the election's outcome.
+
+[2020 AZ Senate Prediction](AZ-Senate-Election-Analysis.html){target="_blank"}
+
+## Factors Affecting Time on Market for Twin Cities Real Estate
+
+A survival analysis describing factors that impact how long a home stays available on the market in the Twin Cities, MN metropolitan area.
+
+[Twin Cities Real Estate](Final_Draft_1.pdf){target="_blank"}
+
+**Credit:** Dr. Vittorio Adonna of Macalester College supervised this project and classmate April Leclair collaborated on the analysis.
+
+## 2017 Alabama Senate Election
+
+Another fascinating election in which a Democrat had a rare opportunity to potentially win a Senate seat in a deep red state. This analysis is a deeper dive into Bayesian methods in predicting the election outcome and updating our prior incrementally as polls came in. 
+
+[2017 AL Senate Special Election](FinalReport.html){target="_blank"}
+
+**Credit:** Dr. Alicia Johnson of Macalester College supervised this project and classmate Corey McGinnis collaborated on the analysis. 
+
+
+
+
+

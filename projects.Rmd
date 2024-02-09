@@ -3,22 +3,6 @@ title: "Projects"
 output: html_document
 ---
 
-## Models of Neighborhood Change in Tucson, AZ
-
-A Shiny dashboard completed as part of a final project in a data analytics practicum leveraging geographic data, US Census data, and historical real estate prices to provide a full picture of neighborhood demographics in Tucson and how they changed over time.
-
-[Models of neighborhood change in Tucson, AZ](https://nickmcmullen.shinyapps.io/Final-Project-McMullen-PAF516/){target="_blank"}
-
-**Credit:** Dr. Anthony Howell of ASU Watts College of Public Service and Community Solutions provided programming resources and helpful syntax to aid in the completion of this project.
-
-## Traffic Accidents in Tempe, AZ
-
-A Shiny dashboard completed as part of a final project in an R programming course. Provides detailed insight into trends in accidents, hazardous locations, and other traffic-related information.
-
-[Tempe, AZ Traffic Accidents](https://nickmcmullen.shinyapps.io/Final-Project-McMullen/){target="_blank"}
-
-**Credit:** Dr. Corey Carlson of ASU Watts College of Public Service and Community Solutions provided programming resources and helpful syntax to aid in the completion of this project.
-
 ## 2020 AZ Senate Election
 
 The 2020 US Senate election in Arizona was on of the most fascinating and competitive races in recent history in the wake of John McCain's passing. Here I conduct a brief Bayesian analysis, updating the prior with poll data to make an informed prediction on the election's outcome.
